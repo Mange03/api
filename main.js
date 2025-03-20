@@ -1,4 +1,9 @@
-/*Tipos de variaveis*/
-var a = 5 //escopo global
-const b = 10 //sempre mesmo valor
-let c = "teste" //escopo local
+var a = 5
+var b = 10
+
+function soma(x,y){
+    let sum = x+y
+    return sum 
+}
+
+console.log(soma(a,b))
