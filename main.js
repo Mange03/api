@@ -7,3 +7,9 @@ function soma(x,y){
 }
 
 console.log(soma(a,b))
+
+const sub = (a,b) => {
+
+    return 3-5
+}
+console.log(sub)
