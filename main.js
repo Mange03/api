@@ -1,13 +1,12 @@
-function Carro (a,b,c,d,e){
-        this.modelo = a;
-        this.cor = b;
-        this.ano = c;
-        this.valor=  d;
-        this.popular= e
-        
+var lista = ["Afonso", "Henriques", "Aline", "Alacoque"];
+    console.log (lista);//imprime o array inteiro
 
-}
+lista.push("Felipe"); //adiciona elementos na lista
+console.log(lista)
 
-var carro = new Carro ('Honda Civic', 'Preto', 2017, 100000, true);
+console.log(lista[4]);//imprime o array selecionado "[4]"
 
- console.log(carro);
+lista.pop(); //exclui último elemento
+console.log(lista);
+
+console.log(lista.length); //exibe a quantidade de elementos da array
